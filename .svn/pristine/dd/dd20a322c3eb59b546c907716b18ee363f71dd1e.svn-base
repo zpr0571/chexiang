@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 微软雅黑;
+}
+
+article#project{
+	background-color: #F5F5F5;
+	padding-top: 10px;
+}
+article#project>section{
+	width: 1190px;
+	margin:0 auto;
+}
+
+article#project>section>div{
+	position: relative;
+}
+article#project>section>div>h3{
+	border-left: 5px solid #003399;
+	padding-left: 10px;
+	font-size: 20px;
+	font-weight: normal; 
+}
+article#project>section>div>a{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	color: #333333;
+}
+article#project>section>ul>li{
+	background-color: white;
+	float: left;
+	width: 230px;
+	height: 320px;
+
+}

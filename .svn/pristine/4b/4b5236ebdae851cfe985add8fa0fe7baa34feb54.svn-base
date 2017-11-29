@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>保养维修</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/project.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/common.css">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1" uesr-scalable=no>
+	 	<!-- html5垫片脚本 -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+	<article id="project">
+		<section>
+			<div>
+				<h3>做保养</h3>
+				<a href="#">查看更多</a>
+			</div>
+			<ul class="clearfix">
+				<li>
+					<a href="#"><img src="images/project-image/baoyang-ad.jpg" alt=""></a>
+				</li>
+				<li>
+					<a href="#"><img src="images/project-image/XBY-jsd.jpg" alt=""></a>
+					<a href="#">
+						<p>嘉实多机油保养套餐</p>
+						<p><span>268.20</span>元起</p>
+					</a>
+				</li>
+				<li>
+					<a href="#"><img src="images/project-image/XBY-jp.jpg" alt=""></a>
+					<a href="#">
+						<p>壳牌机油保养套餐</p>
+						<p><span>268.20</span>元起</p>
+					</a>
+				</li>
+				<li>
+					<a href="#"><img src="images/project-image/XBY-sbs.jpg" alt=""></a>
+					<a href="#">
+						<p>赛倍飒机油保养套餐</p>
+						<p><span>340.20</span>元起</p>
+					</a>
+				</li>
+				<li>
+					<a href="#"><img src="images/project-image/S0040.jpg" alt=""></a>
+					<a href="#">
+						<p>更换空气滤清器</p>
+						<p><span>35.00</span>元起</p>
+					</a>
+				</li>
+			</ul>
+		</section>
+		<section>
+			<div>
+				<h3>做美容</h3>
+				<a href="#">查看更多</a>
+			</div>
+			<ul class="clearfix">
+				<li>
+					<a href="#"><img src="images/project-image/meirong-ad.jpg" alt=""></a>
+				</li>
+				<li>
+					<a href="#"><img src="images/project-image/S0070.jpg" alt=""></a>
+					<a href="#">
+						<p>前挡玻璃镀膜</p>
+						<p><span>120.00</span>元</p>
+					</a>
+				</li>
+				<li>
+					<a href="#"><img src="images/project-image/S0063.jpg" alt=""></a>
+					<a href="#">
+						<p>全车内饰清洁</p>
+						<p><span>288.00</span>元</p>
+					</a>
+				</li>
+				<li>
+					<a href="#"><img src="images/project-image/S0068.jpg" alt=""></a>
+					<a href="#">
+						<p>发动机舱清洁镀膜</p>
+						<p><span>144.00</span>元</p>
+					</a>
+				</li>
+				<li>
+					<a href="#"><img src="images/project-image/S0059.jpg" alt=""></a>
+					<a href="#">
+						<p>抛光封釉</p>
+						<p><span>624.00</span>元</p>
+					</a>
+				</li>
+			</ul>
+		</section>
+		<section>
+			<div>
+				<h3>做养护</h3>
+				<a href="#">查看更多</a>
+			</div>
+			<ul class="clearfix">
+				<li>
+					<a href="#"><img src="images/project-image/yanghu-ad.jpg" alt=""></a>
+				</li>
+				<li>
+					<a href="#"><img src="images/project-image/S0016.jpg" alt=""></a>
+					<a href="#">
+						<p>发动机清洗与养护</p>
+						<p><span>405.00</span>元</p>
+					</a>
+				</li>
+				<li>
+					<a href="#"><img src="images/project-image/S0017.jpg" alt=""></a>
+					<a href="#">
+						<p>空调系统养护</p>
+						<p><span>349.00</span>元</p>
+					</a>
+				</li>
+				<li>
+					<a href="#"><img src="images/project-image/S0014.jpg" alt=""></a>
+					<a href="#">
+						<p>发动机清洗</p>
+						<p><span>209.30</span>元</p>
+					</a>
+				</li>
+				<li>
+					<a href="#"><img src="images/project-image/S0066.jpg" alt=""></a>
+					<a href="#">
+						<p>车内空气净化</p>
+						<p><span>112.00</span>元</p>
+					</a>
+				</li>
+			</ul>
+		</section>
+	</article>
+		<footer class="footer_top">
+		<div class="footer_top_menu1">
+			<ul>
+				<li><i></i>上汽品质</li>
+				<li><i></i>价格透明</li>
+				<li><i></i>优质服务</li>
+				<li><i></i>一站式体验</li>
+			</ul>
+		</div>
+		<div class="footer_top_menu2">
+			<!-- 一 -->
+			<ul>
+				<li><h3>新手指南</h3></li>
+				<li><a href="">如何成为车享认证会员？</a></li>
+				<li><a href="">车享积分的获取</a></li>
+				<li><a href="">密码锁了怎么办？</a></li>
+				<li><a href="">常见问题</a></li>
+			</ul>
+			<!-- 二 -->
+			<ul>
+				<li><h3>服务权益</h3></li>
+				<li><a href="">会员权益说明</a></li>
+				<li><a href="">车享保障与权益</a></li>
+				<li><a href="">隐私权声明</a></li>
+			</ul>
+			<!-- 三 -->
+			<ul>
+				<li><h3>关于我们</h3></li>
+				<li><a href="">什么是车享？</a></li>
+				<li><a href="">经销商</a></li>
+				<li><a href="">法律声明</a></li>
+				<li><a href="">免责条款</a></li>
+			</ul>
+			<!-- 四 -->
+			<ul>
+				<li><h3>服务热线</h3></li>
+				<li><h4>4008 020 666</h4></li>
+				<li><p>服务时段：周一至周日</p></li>
+				<li><p>9:00~21:00</p></li>
+				<li><p>投诉</p></li>
+			</ul>
+			<!-- 五 -->
+			<ul class="footer_erweima">
+				<li><img src="images/ms_120.jpg" alt=""><p>车享</p></li>
+				<li><img src="images/cxhui_120.jpg" alt=""><p>车享汇</p></li>
+			</ul>
+		</div>
+	</footer>
+	<footer class="footer_middle">
+		<!-- 战略合作 -->
+		<div class="footer_cooperate">
+			<span>战略合作</span>
+			<div class="footer_cooperate_menus">
+				<span><img src="images/bailian.jpg" alt=""></span>
+				<span><img src="images/lotus.jpg" alt=""></span>
+				<span><img src="images/castrol.jpg" alt=""></span>
+				<span><img src="images/jinjiang.jpg" alt=""></span>
+				<span><img src="images/metro.jpg" alt=""></span>
+				<span><img src="images/spdbank.jpg" alt=""></span>
+				<span><img src="images/sipg.jpg" alt=""></span>
+				<span><img src="images/crh.jpg" alt=""></span>
+				<span><img src="images/hnowhow.jpg" alt=""></span>
+				<span><img src="images/shairport.jpg" alt=""></span>
+				<span><img src="images/petrochina.jpg" alt=""></span>
+				
+			</div>
+		</div>
+		<!-- 快捷导航 -->
+		<div class="friend_link">
+			<span>快捷导航</span>
+			<div class="friend_link_right">
+				<a href="">新车报价</a>
+				<a href="">贷款购车</a>
+				<a href="">热搜汽车</a>
+				<a href="">分期付款买车</a>
+				<a href="">车享团购</a>
+				<a href="">汽车降价排行榜</a>
+				<a href="">买车送礼包</a>
+				<a href="">汽车促销活动</a> 
+				<a href="">车展买车</a>
+				<a href="">免息购车</a>
+				<a href="">清仓甩卖</a>
+				<a href="">限时促销</a>
+				<a href="">按揭买车</a>
+				<a href="">新车钜惠</a>
+				<a href="">年底促销</a>
+				<a href="">金融方案</a>
+				<a href="">大众优惠</a>
+				<a href="">凯迪拉克降价</a>
+				<a href="">别克促销</a>
+				<a href="">雪佛兰特价</a>
+			</div>
+		</div>
+	</footer>
+	<!-- 版权 -->
+	<footer class="footer_bottom">
+		<p>CopyRight © 2014-2016, All Rights Reserved 版权所有 车享 沪ICP备14000481号</p>
+		<p class="copyright_record"><i></i><a href="">沪公网备31010502000356号</a></p>
+	</footer>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

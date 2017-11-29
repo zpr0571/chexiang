@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/second-hand.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/common.css">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1" uesr-scalable=no>
+	 	<!-- html5垫片脚本 -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+	<article>
+		<section id="today">
+			<h3>今日爆款</h3>
+			<ul class="clearfix">
+				<li>
+					<a href="#">
+						<img src="images/second-hand/today-1.jpg" alt=""><br>
+					</a>
+					<div>
+						<a href="">斯柯达 明锐 1.6手自一体两厢逸致版</a>
+						<p>2007年上牌 / 14.36万公里</p>
+						<div class="clearfix">
+							<p class="pull-left"><b>3.68</b>万</p>
+							<p class="pull-right"><span>自营</span>深圳</p>
+						</div>
+					</div>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/second-hand/today-2.jpg" alt=""><br>
+					</a>
+					<div>
+						<a href="">斯柯达 昊锐 1.8T 自动 尊雅版</a>
+						<p>2012年上牌 / 3.72万公里</p>
+						<div class="clearfix">
+							<p class="pull-left"><b>10.58</b>万</p>
+							<p class="pull-right"><span>自营</span>上海</p>
+						</div>
+					</div>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/second-hand/today-3.jpg" alt=""><br>
+					</a>
+					<div>
+						<a href="">铃木 天语SX4 1.6 手动 运动版</a>
+						<p>2012年上牌 / 5.15万公里</p>
+						<div class="clearfix">
+							<p class="pull-left"><b>5.08</b>万</p>
+							<p class="pull-right"><span>自营</span>上海</p>
+						</div>
+					</div>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/second-hand/today-4.jpg" alt=""><br>
+					</a>
+					<div>
+						<a href="">大众 朗逸 1.4双离合 品雅版</a>
+						<p>2011年上牌 / 9.5万公里</p>
+						<div class="clearfix">
+							<p class="pull-left"><b>7.78</b>万</p>
+							<p class="pull-right"><span>自营</span>上海</p>
+						</div>
+					</div>
+				</li>
+			</ul>
+			<ul class="clearfix">
+				<li>
+					<a href="#">
+						<img src="images/second-hand/today-5.jpg" alt=""><br>
+					</a>
+					<div>
+						<a href="">斯柯达 明锐 1.6 手自一体 逸杰版</a>
+						<p>2013年上牌 / 2.36万公里</p>
+						<div class="clearfix">
+							<p class="pull-left"><b>9.38</b>万</p>
+							<p class="pull-right"><span>自营</span>上海</p>
+						</div>
+					</div>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/second-hand/today-6.jpg" alt=""><br>
+					</a>
+					<div>
+						<a href="">大众 高尔夫 两厢1.4TSI双离合豪...</a>
+						<p>2015年上牌 / 0.59万公里</p>
+						<div class="clearfix">
+							<p class="pull-left"><b>13.2</b>万</p>
+							<p class="pull-right"><span>自营</span>深圳</p>
+						</div>
+					</div>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/second-hand/today-7.jpg" alt=""><br>
+					</a>
+					<div>
+						<a href="">大众 速腾 三厢1.6手自一体舒适版</a>
+						<p>2014年上牌 / 3.28万公里</p>
+						<div class="clearfix">
+							<p class="pull-left"><b>9.8</b>万</p>
+							<p class="pull-right"><span>自营</span>深圳</p>
+						</div>
+					</div>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/second-hand/today-8.jpg" alt=""><br>
+					</a>
+					<div>
+						<a href="">大众 高尔夫 两厢1.4TSI双离合豪...</a>
+						<p>2015年上牌 / 1.75万公里</p>
+						<div class="clearfix">
+							<p class="pull-left"><b>12.8</b>万</p>
+							<p class="pull-right"><span>自营</span>深圳</p>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</section>
+		<section id="story clearfix">
+			<h3>车主故事</h3>
+			<div>
+				<div class="left-story pull-left">
+					<ul class="clearfix">
+						<li class="top-box one">
+							<a href="#"><img src="images/second-hand/story-1.jpg" alt=""></a>
+							<div>
+								<a href="#">“任性”的选择——大众朗逸</a>
+								<p>
+									“任性”的我在车享二手车平台上选择了我的“千里马”，酷炫的它为我挣足了面子！
+								</p>
+							</div>
+						</li>
+						<li class="top-box">
+							<a href="#"><img src="images/second-hand/story-2.png" alt=""></a>
+							<div>
+								<a href="#">爱情故事—Polo</a>
+								<p>
+									自从在车享二手车平台上买到了这辆POLO，我和男朋友终于也可以在朋友圈上秀恩爱，晒出...
+								</p>
+							</div>
+						</li>
+					</ul>
+					<div class="bottom-box clearfix">
+						<a href="#" class="pull-left"><img src="images/second-hand/story-3.jpg" alt=""></a>
+						<div class="pull-right">
+							<a href="#">亲情故事——福特麦克斯</a>
+							<p>家里有了宝宝，就萌生了换大车的念头，有了这辆福特麦克斯，我能跟全家人一起出游，享受家...</p>
+						</div>
+					</div>	
+				</div>
+				<div class="right-story pull-right">
+					<ul>
+						<li class="clearfix">
+							<a href="#" class="pull-left">
+								<img src="images/second-hand/story-4.jpg" alt="">
+							</a>
+							<div class="pull-right">
+								<a href="#">爱车故事——奥迪A4L</a>
+								<p>
+									李女士在车享二手车平台上卖掉了陪伴了他许久的奥迪A4，并且还通过“328”活动获得了...
+								</p>
+							</div>
+						</li>
+						<li class="clearfix">
+							<a href="#" class="pull-left">
+								<img src="images/second-hand/story-5.png" alt="">
+							</a>
+							<div class="pull-right">
+								<a href="#">老鸟自驾长途 ——福特翼虎</a>
+								<p>我和朋友调整假期一起去了西藏，一路上多亏了我的爱车——福特翼虎，才有了舒适的自驾游体...</p>
+							</div>
+						</li>
+						<li class="clearfix">
+							<a href="#" class="pull-left">
+								<img src="images/second-hand/story-6.png" alt="">
+							</a>
+							<div class="pull-right">
+								<a href="#">新手自驾短途——斯柯达晶锐</a>
+								<p>我在一家上海物流公司工作，平时往返于上海与绍兴，自从在车享二手车平台上买了这辆车，我...</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section id="pic">
+			<img src="images/second-hand/bottom-ic2.jpg" alt="">
+		</section>
+	</article>
+	<footer class="footer_top">
+		<div class="footer_top_menu1">
+			<ul>
+				<li><i></i>上汽品质</li>
+				<li><i></i>价格透明</li>
+				<li><i></i>优质服务</li>
+				<li><i></i>一站式体验</li>
+			</ul>
+		</div>
+		<div class="footer_top_menu2">
+			<!-- 一 -->
+			<ul>
+				<li><h3>新手指南</h3></li>
+				<li><a href="">如何成为车享认证会员？</a></li>
+				<li><a href="">车享积分的获取</a></li>
+				<li><a href="">密码锁了怎么办？</a></li>
+				<li><a href="">常见问题</a></li>
+			</ul>
+			<!-- 二 -->
+			<ul>
+				<li><h3>服务权益</h3></li>
+				<li><a href="">会员权益说明</a></li>
+				<li><a href="">车享保障与权益</a></li>
+				<li><a href="">隐私权声明</a></li>
+			</ul>
+			<!-- 三 -->
+			<ul>
+				<li><h3>关于我们</h3></li>
+				<li><a href="">什么是车享？</a></li>
+				<li><a href="">经销商</a></li>
+				<li><a href="">法律声明</a></li>
+				<li><a href="">免责条款</a></li>
+			</ul>
+			<!-- 四 -->
+			<ul>
+				<li><h3>服务热线</h3></li>
+				<li><h4>4008 020 666</h4></li>
+				<li><p>服务时段：周一至周日</p></li>
+				<li><p>9:00~21:00</p></li>
+				<li><p>投诉</p></li>
+			</ul>
+			<!-- 五 -->
+			<ul class="footer_erweima">
+				<li><img src="images/ms_120.jpg" alt=""><p>车享</p></li>
+				<li><img src="images/cxhui_120.jpg" alt=""><p>车享汇</p></li>
+			</ul>
+		</div>
+	</footer>
+	<footer class="footer_middle">
+		<!-- 战略合作 -->
+		<div class="footer_cooperate">
+			<span>战略合作</span>
+			<div class="footer_cooperate_menus">
+				<span><img src="images/bailian.jpg" alt=""></span>
+				<span><img src="images/lotus.jpg" alt=""></span>
+				<span><img src="images/castrol.jpg" alt=""></span>
+				<span><img src="images/jinjiang.jpg" alt=""></span>
+				<span><img src="images/metro.jpg" alt=""></span>
+				<span><img src="images/spdbank.jpg" alt=""></span>
+				<span><img src="images/sipg.jpg" alt=""></span>
+				<span><img src="images/crh.jpg" alt=""></span>
+				<span><img src="images/hnowhow.jpg" alt=""></span>
+				<span><img src="images/shairport.jpg" alt=""></span>
+				<span><img src="images/petrochina.jpg" alt=""></span>
+				
+			</div>
+		</div>
+		<!-- 快捷导航 -->
+		<div class="friend_link">
+			<span>快捷导航</span>
+			<div class="friend_link_right">
+				<a href="">新车报价</a>
+				<a href="">贷款购车</a>
+				<a href="">热搜汽车</a>
+				<a href="">分期付款买车</a>
+				<a href="">车享团购</a>
+				<a href="">汽车降价排行榜</a>
+				<a href="">买车送礼包</a>
+				<a href="">汽车促销活动</a> 
+				<a href="">车展买车</a>
+				<a href="">免息购车</a>
+				<a href="">清仓甩卖</a>
+				<a href="">限时促销</a>
+				<a href="">按揭买车</a>
+				<a href="">新车钜惠</a>
+				<a href="">年底促销</a>
+				<a href="">金融方案</a>
+				<a href="">大众优惠</a>
+				<a href="">凯迪拉克降价</a>
+				<a href="">别克促销</a>
+				<a href="">雪佛兰特价</a>
+			</div>
+		</div>
+	</footer>
+	<!-- 版权 -->
+	<footer class="footer_bottom">
+		<p>CopyRight © 2014-2016, All Rights Reserved 版权所有 车享 沪ICP备14000481号</p>
+		<p class="copyright_record"><i></i><a href="">沪公网备31010502000356号</a></p>
+	</footer>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

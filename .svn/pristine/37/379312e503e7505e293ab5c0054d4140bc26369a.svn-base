@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>会员商城</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/vip.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/common.css">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1" uesr-scalable=no>
+	 	<!-- html5垫片脚本 -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+	<article>
+		<!-- 享换算 -->
+		<section id="xiang" class="bg">
+			<div class="clearfix">
+				<b class="pull-left"></b>
+				<h3 class="pull-left">享划算</h3>
+				<a href="#" class="pull-right">查看更多<span>&gt;</span></a>
+			</div>
+			<ul>
+				<li><a href="#"></a></li>
+				<li>
+					<a href="#">
+						<p>Nano.Up纳氟拉口腔护</p>
+						<p><b>88</b>元 <span>+</span> <b>88</b>积分</p>
+						<p>市场价：<s>142元</s></p>
+						<img src="images/vip-image/xiang-2.jpg" alt="">
+					</a>
+					<p>活动<i></i></p>
+				</li>
+				<li>
+					<a href="#">
+						<p>蕉下双层三折小黑伞</p>
+						<p><b>198</b>元 <span>+</span> <b>88</b>积分</p>
+						<p>市场价：<s>399元</s></p>
+						<img src="images/vip-image/xiang-3.jpg" alt="">
+					</a>
+					<p>促销<i></i></p>
+				</li>
+				<li>
+					<a href="#">
+						<p>乐美雅凝彩冰蓝水具5件套</p>
+						<p><b>88</b>元 <span>+</span> <b>28</b>积分</p>
+						<p>市场价：<s>126元</s></p>
+						<img src="images/vip-image/xiang-4.jpg" alt="">
+					</a>
+					<p>促销<i></i></p>
+				</li>
+				<li>
+					<a href="#">
+						<p>日本进口黛丝恩精油沐浴露</p>
+						<p><b>38</b>元 <span>+</span> <b>18</b>积分</p>
+						<p>市场价：<s>68元</s></p>
+						<img src="images/vip-image/xiang-5.jpg" alt="">
+					</a>
+					<p>促销<i></i></p>
+				</li>
+			</ul>
+		</section>
+		<!-- 积分换 -->
+		<section id="jifen" class="bg">
+			<div class="clearfix">
+				<b class="pull-left"></b>
+				<h3 class="pull-left">积分换</h3>
+				<a href="#" class="pull-right">查看更多<span>&gt;</span></a>
+			</div>
+			<ul>
+				<li><a href="#"></a></li>
+				<li>
+					<a href="#">
+						<p>汉堡王 皇堡/天椒皇堡套餐</p>
+						<p><b>2100</b>积分</p>
+						<p>市场价：<s>36元</s></p>
+						<img src="images/vip-image/huan-2.jpg" alt="">
+					</a>
+					<p>热销<i></i></p>
+				</li>
+				<li>
+					<a href="#">
+						<p>格瓦拉电影兑换券橙券</p>
+						<p><b>25</b>元 <span>+</span> <b>2200</b>积分</p>
+						<p>市场价：<s>90元</s></p>
+						<img src="images/vip-image/huan-3.jpg" alt="">
+					</a>
+					<p>新品<i></i></p>
+				</li>
+				<li>
+					<a href="#">
+						<p>车享家更换刹车油</p>
+						<p><b>167</b>元 <span>+</span> <b>100</b>积分</p>
+						<p>市场价：<s>188元</s></p>
+						<img src="images/vip-image/huan-4.jpg" alt="">
+					</a>
+					<p>人气<i></i></p>
+				</li>
+				<li>
+					<a href="#">
+						<p>哈根达斯 单球冰淇淋/雪芭</p>
+						<p><b>2100</b>积分</p>
+						<p>市场价：<s>38元</s></p>
+						<img src="images/vip-image/huan-5.jpg" alt="">
+					</a>
+					<p>热销<i></i></p>
+				</li>
+			</ul>
+		</section>
+		<!-- 现金购 -->
+		<section id="xianjin" class="bg">
+			<div class="clearfix">
+				<b class="pull-left"></b>
+				<h3 class="pull-left">现金购</h3>
+				<a href="#" class="pull-right">查看更多<span>&gt;</span></a>
+			</div>
+			<ul>
+				<li><a href="#"></a></li>
+				<li>
+					<a href="#">
+						<p>飞利浦智能风热电吹风</p>
+						<p><b>179.01</b>元</p>
+						<p>市场价：<s>258元</s></p>
+						<img src="images/vip-image/gou-2.jpg" alt="">
+					</a>
+					<p>热销<i></i></p>
+				</li>
+				<li>
+					<a href="#">
+						<p>韩国进口玻璃储物罐</p>
+						<p><b>95</b>元</p>
+						<p>市场价：<s>159元</s></p>
+						<img src="images/vip-image/gou-3.jpg" alt="">
+					</a>
+					<p>人气<i></i></p>
+				</li>
+				<li>
+					<a href="#">
+						<p>糖猫儿童智能手表</p>
+						<p><b>299</b>元</p>
+						<p>市场价：<s>498元</s></p>
+						<img src="images/vip-image/gou-4.jpg" alt="">
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<p>赛睿鼠标垫 Tyloo战队版</p>
+						<p><b>94</b>元</p>
+						<p>市场价：<s>149元</s></p>
+						<img src="images/vip-image/gou-5.jpg" alt="">
+					</a>
+				</li>
+			</ul>
+		</section>
+		<!-- 品牌车品 -->
+		<section id="pinpai" class="bg">
+			<div class="clearfix">
+				<b class="pull-left"></b>
+				<h3 class="pull-left">品牌车品</h3>
+				<div class="pull-right">
+					<a href="#">大众旗舰店</a>
+					<a href="#">斯柯达旗舰店</a>
+				</div>
+			</div>
+			<ul>
+				<li><a href="#"></a></li>
+				<li>
+					<a href="#">
+						<p>靠垫</p>
+						<p><b>73</b>元 <span>+</span> <b>999</b>积分</p>
+						<p>市场价：<s>98元</s></p>
+						<img src="images/vip-image/zhong-2.jpg" alt="">
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<p>头枕</p>
+						<p><b>23</b>元 <span>+</span> <b>1999</b>积分</p>
+						<p>市场价：<s>66元</s></p>
+						<img src="images/vip-image/zhong-3.jpg" alt="">
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<p>车用多功能手电筒</p>
+						<p><b>0</b>元 <span>+</span> <b>1950</b>积分</p>
+						<p>市场价：<s>42元</s></p>
+						<img src="images/vip-image/zhong-4.jpg" alt="">
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<p>山地车</p>
+						<p><b>2373</b>元 <span>+</span> <b>0</b>积分</p>
+						<p>市场价：<s>2498元</s></p>
+						<img src="images/vip-image/zhong-5.jpg" alt="">
+					</a>
+				</li>
+			</ul>
+		</section>
+		<!-- 特约商户 -->
+		<section id="teyue">
+			<div>
+				<b></b>
+				<h3>特约商户</h3>
+			</div>
+			<ul>
+				<li>
+					<a href="#">
+						<img src="images/vip-image/te-1.jpg" alt="">
+						<p>大众旗舰店</p>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/vip-image/te-2.jpg" alt="">
+						<p>斯柯达旗舰店</p>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/vip-image/te-3.jpg" alt="">
+						<p>车享家</p>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/vip-image/te-4.jpg" alt="">
+						<p>京东</p>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<!-- <img src="images/vip-image/te-5.jpg" alt=""> -->
+						<p>迪斯尼</p>
+					</a>
+					<div>
+						敬请期待
+					</div>
+				</li>
+				<li>
+					<a href="#">
+						<!-- <img src="images/vip-image/te-6.jpg" alt=""> -->
+						<p>上海家化</p>
+					</a>
+					<div>
+						敬请期待
+					</div>
+				</li>
+			</ul>
+		</section>
+	</article>
+	<footer class="footer_top">
+		<div class="footer_top_menu1">
+			<ul>
+				<li><i></i>上汽品质</li>
+				<li><i></i>价格透明</li>
+				<li><i></i>优质服务</li>
+				<li><i></i>一站式体验</li>
+			</ul>
+		</div>
+		<div class="footer_top_menu2">
+			<!-- 一 -->
+			<ul>
+				<li><h3>新手指南</h3></li>
+				<li><a href="">如何成为车享认证会员？</a></li>
+				<li><a href="">车享积分的获取</a></li>
+				<li><a href="">密码锁了怎么办？</a></li>
+				<li><a href="">常见问题</a></li>
+			</ul>
+			<!-- 二 -->
+			<ul>
+				<li><h3>服务权益</h3></li>
+				<li><a href="">会员权益说明</a></li>
+				<li><a href="">车享保障与权益</a></li>
+				<li><a href="">隐私权声明</a></li>
+			</ul>
+			<!-- 三 -->
+			<ul>
+				<li><h3>关于我们</h3></li>
+				<li><a href="">什么是车享？</a></li>
+				<li><a href="">经销商</a></li>
+				<li><a href="">法律声明</a></li>
+				<li><a href="">免责条款</a></li>
+			</ul>
+			<!-- 四 -->
+			<ul>
+				<li><h3>服务热线</h3></li>
+				<li><h4>4008 020 666</h4></li>
+				<li><p>服务时段：周一至周日</p></li>
+				<li><p>9:00~21:00</p></li>
+				<li><p>投诉</p></li>
+			</ul>
+			<!-- 五 -->
+			<ul class="footer_erweima">
+				<li><img src="images/ms_120.jpg" alt=""><p>车享</p></li>
+				<li><img src="images/cxhui_120.jpg" alt=""><p>车享汇</p></li>
+			</ul>
+		</div>
+	</footer>
+	<footer class="footer_middle">
+		<!-- 战略合作 -->
+		<div class="footer_cooperate">
+			<span>战略合作</span>
+			<div class="footer_cooperate_menus">
+				<span><img src="images/bailian.jpg" alt=""></span>
+				<span><img src="images/lotus.jpg" alt=""></span>
+				<span><img src="images/castrol.jpg" alt=""></span>
+				<span><img src="images/jinjiang.jpg" alt=""></span>
+				<span><img src="images/metro.jpg" alt=""></span>
+				<span><img src="images/spdbank.jpg" alt=""></span>
+				<span><img src="images/sipg.jpg" alt=""></span>
+				<span><img src="images/crh.jpg" alt=""></span>
+				<span><img src="images/hnowhow.jpg" alt=""></span>
+				<span><img src="images/shairport.jpg" alt=""></span>
+				<span><img src="images/petrochina.jpg" alt=""></span>
+				
+			</div>
+		</div>
+		<!-- 快捷导航 -->
+		<div class="friend_link">
+			<span>快捷导航</span>
+			<div class="friend_link_right">
+				<a href="">新车报价</a>
+				<a href="">贷款购车</a>
+				<a href="">热搜汽车</a>
+				<a href="">分期付款买车</a>
+				<a href="">车享团购</a>
+				<a href="">汽车降价排行榜</a>
+				<a href="">买车送礼包</a>
+				<a href="">汽车促销活动</a> 
+				<a href="">车展买车</a>
+				<a href="">免息购车</a>
+				<a href="">清仓甩卖</a>
+				<a href="">限时促销</a>
+				<a href="">按揭买车</a>
+				<a href="">新车钜惠</a>
+				<a href="">年底促销</a>
+				<a href="">金融方案</a>
+				<a href="">大众优惠</a>
+				<a href="">凯迪拉克降价</a>
+				<a href="">别克促销</a>
+				<a href="">雪佛兰特价</a>
+			</div>
+		</div>
+	</footer>
+	<!-- 版权 -->
+	<footer class="footer_bottom">
+		<p>CopyRight © 2014-2016, All Rights Reserved 版权所有 车享 沪ICP备14000481号</p>
+		<p class="copyright_record"><i></i><a href="">沪公网备31010502000356号</a></p>
+	</footer>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

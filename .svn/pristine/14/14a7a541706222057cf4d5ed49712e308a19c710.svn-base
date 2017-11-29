@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no" >
+	<title>保养维修</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" href="css/header.css"> -->
+	<!-- <link rel="stylesheet" href="css/second-header.css"> -->
+	<link rel="stylesheet" href="css/third-header.css">
+	<!-- 垫片脚本 -->
+	 <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+<!--页面顶部! -->
+    <header id="top">
+            <div id="top_box">
+		        <div>   
+		            <ul class="lt">
+                        <li class="first_page sprite">
+                            <b></b>
+                            <span class="fc1"><a href="">车享首页</a></span>
+                        </li>
+                        <li class="arr">
+                            <i></i>
+                        </li>
+		            	<li class="city sprite">
+		            		<b></b>
+                			<span class="fc2">上海</span>
+                		</li>
+                		<li class="arr">
+                			<i></i>
+                		</li>
+			            <li class="fc"><a href="#" >亲,请登录</a> </li> 
+			            <li class="fc1"><a href="#" >免费注册</a></li> 
+			        </ul>
+			        <ul class="rt">
+			            <li class="my  sprite fc erweima">
+                            <a href="#" >我的车享</a>
+                            <b class="jiantou"></b>
+                            <div class="subcon">
+                                <span><img src="images/header-images/defaultuserimg55x55.png" alt=""></span> 
+                                <span><a href="">亲，请登录</a></span><br>
+                                <span>
+                                    <a href="">我的订单</a>
+                                    <a href="">优惠券</a>
+                                    <a href="">我的消息</a>
+                                    <a href="">我的权益</a>
+                                </span>
+                            </div>
+			            </li>
+			            <li class="arr">
+                			<i></i>
+                		</li> 
+                        <li class="care  sprite erweima">
+                        	<span class="fc2">关注车享</span>
+                        	<b class="jiantou"></b>
+                            <!-- 关注车享下拉二维码 -->
+                            <div class="subcon">
+                                <ul>
+                                    <li>
+                                        <img src="images/header-images/ms_120.jpg" alt="">
+                                        <p>车享</p>
+                                    </li>
+                                    <li>
+                                        <img src="images/header-images/carmall_120.jpg" alt="">
+                                        <p>车享新车</p>
+                                    </li>
+                                    <li>
+                                        <img src="images/header-images/cxhui_120.jpg" alt="">
+                                        <p>车享汇</p>
+                                    </li>
+                                    <li>
+                                        <img src="images/header-images/cxjob_120.jpg" alt="">
+                                        <p>车享招聘</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="arr">
+                			<i></i>
+                		</li> 
+			            <li class="app_cx  sprite erweima">
+				            <b class="app_cx "></b>
+				            <span class="fc2">我的APP</span>
+				            <b class="jiantou"></b>
+                            <!-- 我的APP下拉二维码 -->
+                            <div class="subcon subcon_1">
+                                <img src="images/header-images/cxjia_dowload_120.jpg" alt="">
+                                <a href=""><p>车享家APP</p></a>
+                            </div>
+			            </li>
+			            <li class="arr">
+                			<i></i>
+                		</li>
+                        <li class="service sprite erweima">
+                            <span class="fc2">商户中心</span>
+                            <b class="jiantou"></b>
+                            <div class="subcon">
+                                <a href="">合作商登陆</a>
+                                <br>
+                                <a href="">二手商户登陆</a>
+                            </div>
+                        </li>
+			        </ul> 
+                </div>
+            </div>
+    </header>
+
+<!-- logo -->
+    <div id="top_main">
+        <a href="#" class="search_lf">
+            <img src="images/header-images/logo_3.png" alt="LOGO" />
+        </a>
+	    <div class="hot_line">
+	    	<i class="phone_icon"></i>
+	    	<div class="hot_line_txt">
+	    		<strong class="hot_line_name">4008 020 666</strong>
+	    		<p class="hot_line_des">
+	    			服务时段：周一至周日9:00~21:00
+	    		</p>
+	    	</div>
+	    </div>
+	</div>
+
+	<!--主导航 -->
+    <nav id="nav">
+        <div id="category">
+            <ul>
+                <li class="nav_menu"><i class="icon_menu"></i>车享服务
+                </li>
+                <li class="nav_item">
+                    <a href="#" class=" active">首页</a>
+                </li>
+                <li class="nav_item"><a href="#">全部服务</a></li>
+                <li class="nav_item"><a href="#">服务门店</a></li>
+            </ul>
+             <!-- 左侧竖条开始 -->
+            <div class="sub_nav_lt"></div>
+            <div class="sub_nav_menu">
+                <ul>
+                    <li class="md_1">
+                        <a href="">做保养<s></s><i class="sub_item_arrow_1"></i></a>
+                        <!-- 中间一 -->
+            			<div class="made">
+            				<div class="made_1">
+			            		<div class="carstyle">
+			            			<img src="images/header-images/carstyle.png" alt="">
+			            			<span>请选择预约车辆</span>
+			            			<i></i>
+			            		</div>
+			            		<div class="title">根据你的爱车推荐</div>
+			            		<div class="product recommand">
+			            		<a href="">
+			            			<img src="images/header-images/jsd.jpg" alt="">
+			            			<div>
+			            				<p>嘉实多全合成保养套餐</p>
+			            				<span>538.00元</span>
+			            			</div>
+			            		</a>
+			            		</div>
+			            		<div class="title">热门保养项目</div>
+			            		<div class="recommend">
+				            		<a href="">空气滤清器</a>
+				            		<a href="">空调滤清器</a>
+				            		<a href="">雨刮片</a>
+			            		</div>
+			            		<div class="more"><a href="">查看更多&gt;</a></div>
+			            	</div>
+            			</div>
+                    </li>
+                    <li class="md_2">
+                        <a href="">做美容<b></b><i class="sub_item_arrow_2"></i></a>
+                        <!-- 中间二 -->
+			            <div class="made">
+			            	<div class="made_1">
+			            		<div class="title">做美容</div>
+			            		<div class="recommend recommend_1">
+				            		<a href="">全车玻璃镀膜</a>
+				            		<a href="">全车内饰清洁</a>
+				            	</div>
+				            	<div class="recommend recommend_2">	
+				            		<a href="">抛光封釉</a>
+				            		<a href="">轮毂清洁和轮胎镀膜</a>
+			            		</div>
+			            		<div class="title">推荐服务项目</div>
+			            		<div class="product recommand">
+				            		<a href="">
+				            			<img src="images/header-images/product01.jpg" alt="">
+				            			<div>
+				            				<p>前挡玻璃镀膜</p>
+				            				<span>120.00元</span>
+				            			</div>
+				            		</a>
+			            		</div>
+			            		<div class="product recommand">
+				            		<a href="">
+				            			<img src="images/header-images/product02.jpg" alt="">
+				            			<div>
+				            				<p>发动机舱清洁镀膜</p>
+				            				<span>144.00元</span>
+				            			</div>
+				            		</a>
+			            		</div>
+			            		
+			            	</div>
+			            </div>
+                    </li>
+                    <li class="md_3">
+                        <a href="">做养护<b></b><i class="sub_item_arrow_3"></i></a>
+                        <!-- 中间三 -->
+            			<div class="made">
+			            	<div class="made_1">
+			            		<div class="title">做养护</div>
+			            		<div class="product recommand">
+				            		<a href="">
+				            			<img src="images/header-images/product03.jpg" alt="">
+				            			<div>
+				            				<p>空调系统养护</p>
+				            				<span>349.30元</span>
+				            			</div>
+				            		</a>
+			            		</div>
+			            		<div class="product recommand">
+				            		<a href="">
+				            			<img src="images/header-images/product04.jpg" alt="">
+				            			<div>
+				            				<p>发动机清洗养护</p>
+				            				<span>405.00元</span>
+				            			</div>
+				            		</a>
+			            		</div>
+			            		<div class="product recommand">
+				            		<a href="">
+				            			<img src="images/header-images/product05.jpg" alt="">
+				            			<div>
+				            				<p>燃烧室免拆清洗</p>
+				            				<span>349.00元</span>
+				            			</div>
+				            		</a>
+			            		</div>
+			            		
+			            	</div>
+            			</div>
+                    </li>
+                    <li class="download">
+                		<img src="images/header-images/logoSmall.png" alt="">
+                		<div class="text">
+	                		<p class="text1">下载车享家APP</p>
+	                		<p class="text2">领取250元养车礼</p></div>
+                		<span class="code"></span>
+                    </li>     
+                </ul>
+            </div>
+            <!-- 左侧竖条结束 -->
+            
+            
+        </div>
+    </nav>
+    <!-- banner区开始 -->
+    <div id="banner"><a href=""></a></div>
+    <!-- banner区结束 -->
+	 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>

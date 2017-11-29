@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>保养维修</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/project.css">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1" uesr-scalable=no>
+	 	<!-- html5垫片脚本 -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+	<article id="project">
+		<section>
+			<div>
+				<h3>做保养</h3>
+				<a>查看更多</a>
+			</div>
+			<ul class="clear">
+				<li>
+					<a href="#"><img src="images/project-image/baoyang-ad.jpg" alt=""></a>
+				</li>
+				<li>
+					<a href="#"><img src="images/project-image/XBY-jsd.jpg" alt=""></a>
+					<a href="#">
+						<p>嘉实多机油保养套餐</p>
+						<p><span>268.20</span>元起</p>
+					</a>
+				</li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</section>
+		<section>做美容</section>
+		<section>做养护</section>
+	</article>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,238 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*头部*/
+.n_subnav{
+	width: 100%;
+    border-bottom: 8px solid #eaeaea;
+    min-width: 960px;
+}
+.subnav_cont{
+	width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 68px;
+    line-height: 68px;
+}
+.logo>span{
+	display: block;
+    height: 46px;
+    width: 144px;
+    font-size: 26px;
+    color: #333;
+    border-left: 1px solid #e0e0e0;
+    margin-left: 20px;
+    line-height: 46px;
+    margin-top: 10px;
+    padding-left: 18px;
+    font-family: "Microsoft Yahei";
+    text-decoration: none;
+}
+.logo>a>img{
+	margin-top: 8px;
+}
+.zh{
+	font-size: 12px;
+	color: #999;
+	padding-top: 4px;
+	padding-right: 5px;
+}
+.fr>span>a{
+	background-color: #ff8e42;
+	width: 80px;
+	height: 25px;
+	line-height: 25px;
+	display: inline-block;
+	font-size: 14px;
+	text-align: center;
+	color: #fff;
+}
+.fr>span>a:hover{
+	background-color: #ffaf79;
+	text-decoration: none;
+}
+
+
+article{
+	font-family: 微软雅黑;
+	width: 870px;
+	margin: 0 auto;
+}
+article p{
+	margin-bottom: 0;
+}
+
+
+.top-box>div{
+	width: 49%;
+	line-height: 72px;
+	text-align: center;
+	font-size: 22px;
+	position: relative;
+	padding-left: 30px;
+}
+.top-box>div>b{
+	display: inline-block;
+	width: 35px;
+	height: 45px;
+	background: url(../images/enter-images/icon.png) no-repeat;
+}
+.top-box>div>p{
+	display: inline-block;
+}
+
+.top-box>div:first-child{
+	border-bottom:2px solid #4170C1; 
+	color: #4170C1;
+}
+.top-box>div:first-child>b{
+	background-position: -33px 10px;
+	position: absolute;
+	left: 50px;
+	top: 10px;
+}
+.top-box>div:first-child>i{
+	display: inline-block;
+	border: 7px solid transparent;
+	border-bottom-color: #4170C1;
+	position: absolute;
+	top: 83%;
+	left: 200px;
+}
+
+
+
+.top-box>div:last-child{
+	border-bottom:2px solid #DDDDDD; 
+	color: #DDDDDD;
+}
+.top-box>div:last-child>b{
+	background-position: 0 -125px;
+	position: absolute;
+	left: 30px;
+	top: 10px;
+}
+
+
+.bottom-box{
+	margin-top: 30px;
+	padding: 0 50px;
+	color: #000000;
+}
+.bottom-box>table tr{
+	height: 85px;
+}
+.bottom-box>table tr>td>span{
+	color: #E4393C;
+	font-size: 16px;
+}
+.bottom-box>table input:focus{
+	border:2px solid #35B5ED;
+}
+.bottom-box>table tr{
+	vertical-align: top;
+}
+
+.bottom-box>table tr>td:first-child{
+	padding-top: 10px;
+}
+.bottom-box>table tr:first-child>td>input,
+.bottom-box>table tr:nth-child(2)>td>input,
+.bottom-box>table tr:nth-child(3)>td>input{
+	width: 306px;
+	height: 39px;
+	font-size: 16px;
+	color: #999999;
+	padding-left: 5px;
+	padding-right:30px;
+
+}
+.bottom-box>table tr>td>b{
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	background: url(../images/enter-images/icon.png) no-repeat;
+	position: relative;
+	right: 35px;
+	top: 5px;
+}
+.bottom-box>table tr:first-child>td>b{
+	background-position: 0 -210px;
+}
+.bottom-box>table tr:nth-child(2)>td>b,
+.bottom-box>table tr:nth-child(3)>td>b{
+	background-position: 0 -180px;
+}
+
+.bottom-box>table tr:nth-child(2)>td>div{
+	margin-top: 5px;
+}
+.bottom-box>table tr:nth-child(2)>td>div>p{
+	display: inline-block;
+	width: 99px;
+	text-align: center;
+	background-color: #DDDDDD;
+	color:white;
+}
+
+.bottom-box>table tr:nth-child(4)>td>p{
+	display: inline-block;
+	color: #DDDDDD;
+	font-size: 12px;
+	margin-left: 10px;
+}
+.bottom-box>table tr:nth-child(4)>td>a{
+	font-size: 12px;
+}
+.bottom-box>table tr:nth-child(4)>td>input,
+.bottom-box>table tr:nth-child(5)>td>input{
+	width: 117px;
+	height: 39px;
+	font-size: 16px;
+	color: #999999;
+}
+.bottom-box>table tr:nth-child(5)>td>button{
+	width: 122px;
+	height: 38px;
+	background-color: #FF8E42;
+	border: none;
+	border-radius: 5px;
+	color: white;
+}
+.bottom-box>table tr:nth-child(5)>td>button:hover{
+	background-color: #FFAF79;
+}
+.bottom-box>table tr:nth-child(6)>td{
+	font-size: 12px;
+}
+
+.bottom-box>table tr:nth-child(7)>td>button{
+	width: 220px;
+	height: 50px;
+	background-color: #35B5EB;
+	color: white;
+	border:none;
+	border-radius: 5px;
+}
+.bottom-box>table tr:nth-child(7)>td>button:hover{
+	background-color: #61D0FF;
+}
+
+
+
+footer{
+	width: 1180px;
+	margin: 50px auto;
+	color: #B4B4B4;
+	font-size: 12px;
+
+}
+
+footer>p>span{
+	font-size: 14px;
+}
+footer>p>b{
+	font-size: 18px;
+}

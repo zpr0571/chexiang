@@ -1,0 +1,254 @@
+*{
+	margin: 0;
+	padding:0;
+}
+body{
+	background-color: #F5F5F5;
+}
+
+article{
+	width: 1190px;
+	margin: 0 auto;
+	font-family: 微软雅黑;
+}
+a:hover{
+	text-decoration: none;
+}
+article li{
+	list-style: none;
+	background-color: white;
+}
+
+
+
+
+
+.bg>div>b{
+	/*display: inline-block;*/
+	width:25px;
+	height: 25px;
+	background: url(../images/vip-image/icon.png) no-repeat ; 
+	margin-top: 24px;
+	margin-right: 10px;
+}
+.bg>div>a{
+	margin-top: 30px;
+	color: #585858;
+}
+.bg>div>a>span{
+	font-weight: normal;
+}
+.bg>div>a:hover{
+	color: #DBA400;
+}
+.bg>ul>li{
+	text-align: center;
+}
+
+.bg>ul>li:first-child>a{
+	display: inline-block;
+	width: 270px;
+	height: 300px;
+}
+.bg>ul{
+	overflow: hidden;
+}
+.bg>ul>li{
+	float: left;
+}
+.bg>ul>li:first-child~*{
+	width: 230px;
+	height: 300px;
+	padding-top: 50px;
+}
+
+
+/*图片向上移动*/
+.bg>ul>li:first-child~*>a>img{
+	transition:all 0.3s ease; 
+}
+.bg>ul>li:first-child~*:hover>a>img{
+	transform: translateY(-5px);
+}
+
+
+article ul>li>a>p:first-child{
+	color: #333333;
+	font-size: 16px;
+	font-weight: bold;
+}
+article ul>li>a>p:nth-child(2){
+	color: #E51C23;
+	font-size: 12px;
+}
+article ul>li>a>p:nth-child(2)>b{
+	font-size: 16px;
+}
+article ul>li>a>p:nth-child(2)>span{
+	color: #333333;
+	font-size: 16px;
+	font-weight: bold;
+}
+article ul>li>a>p:nth-child(3){
+	color: #999999;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+
+/*小图标*/
+article ul>li{
+	position: relative;
+}
+article ul>li>p:last-child{
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: white;
+	padding: 0px 15px 0px 5px;
+	font-weight: normal;
+	background-color: #ED888C;
+	font-size: 12px;
+}
+article ul>li>p:last-child>i{
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	top: 1px;
+	z-index: 10;
+	border: 8px solid transparent;
+	border-right:8px solid white; 
+}
+
+
+
+/*享划算*/
+#xiang>div>b{
+	background-position:-44px -126px;
+}
+#xiang>ul>li:first-child>a{
+	background-image: url(../images/vip-image/xiang-1.jpg) ;
+}
+
+/*积分换*/
+#jifen>div>b{
+	background-position:-3px -92px;
+}
+#jifen>ul>li:first-child>a{
+	background-image: url(../images/vip-image/huan-1.jpg) ;
+}
+
+/*现金购*/
+#xianjin>div>b{
+	background-position:-2px -125px;
+}
+#xianjin>ul>li:first-child>a{
+	background-image: url(../images/vip-image/gou-1.jpg) ;
+}
+
+/*品牌车品*/
+#pinpai>div>b{
+	background-position:-37px -57px;
+}
+#pinpai>div>div{
+	margin-top: 20px;
+}
+#pinpai>div>div>a{
+	text-decoration: none;
+	font-size: 16px;
+	color: #666666;
+	padding-bottom: 5px;
+	margin-left: 40px;
+}
+#pinpai>div>div>a:first-child{
+	color: #DBA400;
+	border-bottom: 2px solid #DBA400;
+}
+#pinpai>div>div>a:hover{
+	color: #DBA400;
+	border-bottom: 2px solid #DBA400;
+}
+#pinpai>ul>li:first-child>a{
+	background-image: url(../images/vip-image/zhong-1.jpg) ;
+}
+
+
+/*特约商户*/
+#teyue{
+	margin-bottom:50px;
+}
+#teyue>ul{
+	overflow: hidden;
+	background: white;
+	padding: 0 55px;
+}
+#teyue>ul>li{
+	float: left;
+	text-align: center;
+	padding: 35px 0;
+}
+#teyue>ul>li>a{
+	display: inline-block;
+	width: 180px;
+	height: 92px;
+	border-right: 1px dotted #CCCCCC;
+	transition:all 0.3s ease;
+}
+#teyue>ul>li:last-child>a{
+	border: none;
+}
+#teyue>ul>li:hover>a{
+	transform: translateY(-7px);
+	
+}
+#teyue>ul>li>a>p{
+	margin-top: 15px;
+	color: #333333;
+}
+
+/*最后两个动画*/
+#teyue>ul>li:nth-child(5)>a{
+	position: relative;
+	z-index: 100;
+	background: url(../images/vip-image/te-5.jpg) no-repeat center 0;
+}
+#teyue>ul>li:last-child>a{
+	position: relative;
+	z-index: 100;
+	background: url(../images/vip-image/te-6.jpg) no-repeat center 0;
+}
+#teyue>ul>li:nth-child(5),
+#teyue>ul>li:nth-child(6){
+	position: relative;
+}
+#teyue>ul>li:nth-child(5)>div,
+#teyue>ul>li:nth-child(6)>div{
+	position: absolute;
+	top: 7px;
+	width: 180px;
+	height: 162px;
+	background-color: white;
+	opacity: 0.8;
+	line-height: 180px;
+	text-align: center;
+	font-size: 16px;
+	color: white;
+	font-weight: bold;
+	z-index: 10;
+}
+#teyue>ul>li:nth-child(5):hover>div,
+#teyue>ul>li:nth-child(6):hover>div{
+	z-index: 1000;
+	background-color: black;
+	transform: translateY(-7px);
+	transition: all 0.3s ease;
+}
+
+
+#teyue>ul>li:nth-child(5)>a>p,
+#teyue>ul>li:nth-child(6)>a>p{
+	font-size: 12px;
+	color: #333333;
+	font-weight: normal;
+	margin-top: 65px;
+}

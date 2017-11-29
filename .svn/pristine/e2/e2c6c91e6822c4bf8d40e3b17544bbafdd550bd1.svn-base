@@ -1,0 +1,144 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	color: #333333;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+	color: #C71445;
+}
+body{
+	font-family: 微软雅黑;
+}
+h3{
+	font-weight: bold;
+	color: #000000;
+	margin:0;
+}
+#shows{
+	background-color: #F5F5F5;
+}
+#shows>section>div{
+	padding:20px 0;
+	line-height: 30px
+}
+#shows>section>div>a:after{
+	content: "";
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background: url(../images/first-image/icon-2.png) no-repeat 0 -85px;
+	margin-bottom: -3px;
+	margin-left: 5px;
+}
+#shows>section>div>a:hover:after{
+	background: url(../images/first-image/icon-2.png) no-repeat 0 -105px;
+}
+section{
+	width: 1190px;
+	margin: 0 auto;
+}
+#shows>#shows-first img{
+	width: 180px;
+	height: 120px;
+}
+#shows>section>ul{
+	overflow: hidden;
+}
+#shows>#shows-first>ul>li{
+	background-color: white;
+	width: 290px;
+	height: 240px;
+	float: left;
+	list-style: none;
+	margin: 5px 3px;
+	text-align: center;
+	position: relative;
+}
+#shows>section>ul>li>p:last-child{
+	background-color: #63c232;
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: white;
+	padding: 0px 15px 0px 5px;
+	font-weight: normal;
+}
+#shows>section>ul>li>p:last-child>i{
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	top: 1px;
+	z-index: 10;
+	border: 8px solid transparent;
+	border-right:8px solid white; 
+}
+
+
+#shows-first>ul>li{
+	padding-top: 25px;
+}
+#shows-first>ul>li>p:nth-child(2){
+	line-height: 16px;
+}
+#shows-first>ul>li>a>p:first-child{
+	font-size: 18px;
+}
+#shows-first>ul>li>a>p:nth-child(2){
+	font-size: 16px;
+}
+#shows-first>ul>li>p{
+	color: #E51C23;
+	font-size: 13px;
+	font-weight: bold;
+}
+#shows s,#shows span{
+	color: #999999;
+	font-weight: normal;
+}
+#shows b{
+	font-size: 16px;
+}
+
+
+/*热销车型*/
+#hot img{
+	width: 290px;
+	height: 156px;
+	margin-bottom: 10px;
+}
+#hot h4{
+	font-weight: bold;
+}
+#shows>#hot>ul>li{
+	background-color: white;
+	width: 290px;
+	height: 250px;
+	float: left;
+	list-style: none;
+	margin: 5px 3px;
+	text-align: center;
+	position: relative;
+}
+#hot>ul>li>a:nth-child(2):hover{
+	text-decoration: underline;
+}
+#hot>ul>li>a:last-child{
+	color: #A8A8A8;
+	line-height: 40px;
+}
+#hot>ul>li>a:last-child:hover{
+	text-decoration: underline;
+}
+
+/*添加浮动和阴影*/
+#shows ul>li:hover{
+	transform:translate(0,-5px);
+	transition:0.3s linear;
+	box-shadow:0px 0px 10px silver; 
+	box-shadow-top:none; 
+}

@@ -1,0 +1,72 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 微软雅黑;
+}
+li{
+	list-style: none;
+}
+article#project a{
+	font-size: 14px;
+	text-decoration: none;
+	color: #4D4D4D;
+}
+article#project a:hover{
+	color: #FF7112;
+}
+
+
+
+
+article#project{
+	background-color: #F5F5F5;
+	padding-top: 10px;
+	padding-bottom: 40px;
+}
+
+article#project>section{
+	width: 1190px;
+	margin:0 auto;
+}
+
+article#project>section>div{
+	position: relative;
+	margin-bottom: 20px;
+}
+article#project>section>div>h3{
+	border-left: 5px solid #003399;
+	padding-left: 10px;
+	font-size: 20px;
+	font-weight: normal; 
+}
+article#project>section>div>a{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	color: #333333;
+}
+article#project>section>div>a:hover{
+	text-decoration: underline;
+	color: #333333;
+}
+article#project>section>ul>li{
+	background-color: white;
+	float: left;
+	width: 230px;
+	height: 320px;
+}
+#project>section>ul>li:first-child~*{
+	margin-left: 8px;
+}
+#project>section>ul>li>a>p{
+	padding: 0 15px;
+	line-height: 30px;
+}
+#project>section>ul>li>a>p:last-child{
+	color: #FF7112;
+}
+#project>section>ul>li>a>p:last-child>span{
+	font-size: 16px;
+}

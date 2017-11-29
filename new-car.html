@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>新车</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/new-car.css">
+	<link href="css/new-car-header.css" type="text/css" rel="Stylesheet" />
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/common.css">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1" uesr-scalable=no>
+	 	<!-- html5垫片脚本 -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+		<!--页面顶部! -->
+    <header id="top">
+            <div id="top_box">
+		        <div>   
+		            <ul class="lt">
+                        <li class="first_page sprite">
+                            <b></b>
+                            <span class="fc1"><a href="index.html">车享首页</a></span>
+                        </li>
+                        <li class="arr">
+                            <i></i>
+                        </li>
+		            	<li class="city sprite">
+		            		<b></b>
+                			<span class="fc2">上海</span>
+                		</li>
+                		<li class="arr">
+                			<i></i>
+                		</li>
+			            <li class="fc"><a href="enter.html" >亲,请登录</a> </li> 
+			            <li class="fc1"><a href="enroll.html" >免费注册</a></li> 
+			        </ul>
+			        <ul class="rt">
+			            <li class="my  sprite fc erweima">
+                            <a href="#" >我的车享</a>
+                            <b class="jiantou"></b>
+                            <div class="subcon">
+                                <span><img src="images/header-images/defaultuserimg55x55.png" alt=""></span> 
+                                <span><a href="enter.html">亲，请登录</a></span><br>
+                                <span>
+                                    <a href="personal.html">我的订单</a>
+                                    <a href="personal.html">优惠券</a>
+                                    <a href="personal.html">我的消息</a>
+                                    <a href="personal.html">我的权益</a>
+                                </span>
+                            </div>
+			            </li>
+			            <li class="arr">
+                			<i></i>
+                		</li> 
+                        <li class="care  sprite erweima">
+                        	<span class="fc2">关注车享</span>
+                        	<b class="jiantou"></b>
+                            <!-- 关注车享下拉二维码 -->
+                            <div class="subcon">
+                                <ul>
+                                    <li>
+                                        <img src="images/header-images/ms_120.jpg" alt="">
+                                        <p>车享</p>
+                                    </li>
+                                    <li>
+                                        <img src="images/header-images/carmall_120.jpg" alt="">
+                                        <p>车享新车</p>
+                                    </li>
+                                    <li>
+                                        <img src="images/header-images/cxhui_120.jpg" alt="">
+                                        <p>车享汇</p>
+                                    </li>
+                                    <li>
+                                        <img src="images/header-images/cxjob_120.jpg" alt="">
+                                        <p>车享招聘</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="arr">
+                			<i></i>
+                		</li> 
+			            <li class="app_cx  sprite erweima">
+				            <b class="app_cx "></b>
+				            <span class="fc2">我的APP</span>
+				            <b class="jiantou"></b>
+                            <!-- 我的APP下拉二维码 -->
+                            <div class="subcon subcon_1">
+                                <img src="images/header-images/cxjia_dowload_120.jpg" alt="">
+                                <a href=""><p>车享家APP</p></a>
+                            </div>
+			            </li>
+			            <li class="arr">
+                			<i></i>
+                		</li>
+                        <li class="service sprite erweima">
+                            <span class="fc2">商户中心</span>
+                            <b class="jiantou"></b>
+                            <div class="subcon">
+                                <a href="">合作商登陆</a>
+                                <br>
+                                <a href="">二手商户登陆</a>
+                            </div>
+                        </li>
+			        </ul> 
+                </div>
+            </div>
+    </header>
+
+    <!-- logo -->
+    <div id="top_main">
+        <a href="#" class="search_lf">
+            <img src="images/header-images/logo_2.png" alt="LOGO" />
+        </a>
+	    <div id="search_box" class="search_lf">
+	        <div class="search">
+	            <input id="txtSearch" type="text" class="text" placeholder="输入你要购买的车型、品牌" />
+	            <input class="button" name="" type="button" value="搜索" />
+	    	</div>
+	    </div>
+	    <div class="hot_line">
+	    	<i class="phone_icon"></i>
+	    	<div class="hot_line_txt">
+	    		<strong class="hot_line_name">4008 020 666</strong>
+	    		<p class="hot_line_des">
+	    			服务时段：周一至周日9:00~21:00
+	    		</p>
+	    	</div>
+	    </div>
+	</div>
+<!--主导航 -->
+    <nav id="nav">
+        <div id="category">
+            <ul>
+                <li class="nav_menu"><i class="icon_menu"></i>服务分类
+                </li>
+                <li class="nav_item">
+                    <a href="index.html" class=" active">首页</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#">特价车奥特莱斯</a>
+                    <i class="nav_tag">折</i>
+                </li>
+                <li class="nav_item"><a href="#">贷款购车</a></li>
+            </ul>
+             <!-- 左侧竖条开始 -->
+            <div class="sub_nav sub_nav_lt"></div>
+            <div class="sub_nav_menu sub_nav_menu_lt">
+                <ul>
+                    <li>
+                        <h3>品牌</h3>
+                    </li>
+                    <li class="sub_1"><a href="" class="pinpai pinpai_1"></a></li>
+                    <li class="sub_1"><a href="" class="pinpai pinpai_2"></a></li>
+                    <li class="sub_1"><a href="" class="pinpai pinpai_3"></a></li>
+                    
+                    <li class="sub_1"><a href="" class="pinpai pinpai_4"></a></li>
+                    <li class="sub_1"><a href="" class="pinpai pinpai_5"></a></li>
+                    <li class="sub_1"><a href="" class="pinpai pinpai_6"></a></li>
+                    <li class="sub_1"><a href="" class="pinpai pinpai_7"></a></li>
+                    <li class="sub_1"><a href="" class="pinpai pinpai_8"></a></li>
+                </ul>
+                <ul>
+                    <li>
+                        <h3>级别</h3>
+                    </li>
+                    <li class="sub_2 sub_3"><a href="">小型车</a></li>
+                    <li class="sub_2"><a href="">紧凑型车</a></li>
+                    <li class="sub_2"><a href="">中型车</a></li>
+                    <li class="sub_2"><a href="">MPV</a></li>
+                    <li class="sub_2"><a href="">SUV</a></li>
+                </ul>
+                <ul>
+                    <li>
+                        <h3>价格</h3>
+                    </li>     
+                    <li class="sub_2"><a href="">10万以下 </a></li>
+                    <li class="sub_2"><a href="">10万-15万</a></li>
+                    <li class="sub_2"><a href="">15万-20万</a></li>
+                    <li class="sub_2"><a href="">20万-25万</a></li>
+                    <li class="sub_2"><a href="">25万-35万</a></li>
+                    <li class="sub_2"><a href="">35万以上</a></li>
+                </ul>
+            </div>
+            <!-- 左侧竖条结束 -->
+
+            <!-- 右侧竖条开始 -->
+            <div class="sub_nav sub_nav_rt"></div>
+            <div class="sub_nav_menu sub_nav_menu_rt">
+                <div>
+                    <a href="">
+                        <img src="images/header-images/tejia.png" alt="">
+                    </a>
+                    <a href="" class="ad_1">
+                        <img src="images/header-images/banner-ad2.jpg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="images/header-images/banner-ad3.jpg" alt="">
+                    </a> 
+                </div>
+ 
+            </div>
+            <!-- 右侧竖条结束 -->
+        </div>
+    </nav>
+    <!-- banner区开始 -->
+    <div id="banner"><a href=""></a></div>
+    <!-- banner区结束 -->
+	<article id="shows">
+		<section id="shows-first">
+			<div class="clearfix">
+				<h3 class="pull-left">热销车型</h3>
+				<a href="#" class="pull-right">查看更多<b></b></a>
+			</div>
+			<ul>
+				<li>
+					<a href="">
+						<p>荣威RX5</p>
+						<p>2016款 30T四驱互联网智尊版</p>
+					</a>	
+						<p>¥186800 &nbsp;<s>¥186800</s></p>
+					<a href="">
+						<img src="images/first-image/shows1.jpg" alt="">
+					</a>
+					<p>新品首发<i></i></p>
+				</li>
+				<li>
+					<a href="">
+						<p>原装进口速尊</p>
+						<p>2014款 2.0T L&K限量版</p>
+					</a>	
+						<p>¥246800 &nbsp;<s>¥334800</s></p>
+					<a href="">
+						<img src="images/first-image/shows2.jpg" alt="">
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<p>森林人</p>
+						<p>2016款 2.5i 豪华导航版</p>
+					</a>	
+						<p><span>首付:</span> <b>¥115696</b></p>
+					<a href="">
+						<img src="images/first-image/shows4.png" alt="">
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<p>力狮</p>
+						<p>2016款 Legacy [力狮] 2.5i 无级...</p>
+					</a>	
+						<p><span>首付:</span> <b>¥94361</b></p>
+					<a href="">
+						<img src="images/first-image/shows5.jpg" alt="">
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<p>傲虎</p>
+						<p>2016款 Outback [傲虎] 2.5i 无级...</p>
+					</a>	
+						<p><span>首付:</span> <b>¥132738</b></p>
+					<a href="">
+						<img src="images/first-image/shows6.jpg" alt="">
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<p>昕锐</p>
+						<p>2016款 1.6L 手动创行版</p>
+					</a>	
+						<p><span>利率:</span> <b>0%</b></s></p>
+					<a href="">
+						<img src="images/first-image/shows7.png" alt="">
+					</a>
+					<p>0利率<i></i></p>
+				</li>
+				<li>
+					<a href="">
+						<p>君威</p>
+						<p>2014款 1.6T 精英技术型</p>
+					</a>	
+						<p><span>首付:</span> <b>¥79943</b></p>
+					<a href="">
+						<img src="images/first-image/shows8.png" alt="">
+					</a>
+					<p>限量发售<i></i></p>
+				</li>
+				<li>
+					<a href="">
+						<p>全新晶锐</p>
+						<p>2015款 1.4L 自动前行版</p>
+					</a>	
+						<p><span>利率:</span> <b>0%</b></p>
+					<a href="">
+						<img src="images/first-image/shows9.png" alt="">
+					</a>
+					<p>热销爆款<i></i></p>
+				</li>
+				<li>
+					<a href="">
+						<p>Yeti</p>
+						<p>2016款 TSI280手自动一体前行版</p>
+					</a>	
+						<p><span>利率:</span> <b>0%</b></p>
+					<a href="">
+						<img src="images/first-image/shows10.png" alt="">
+					</a>
+					<p>0利率<i></i></p>
+				</li>
+				<li>
+					<a href="">
+						<p> 全新明锐</p>
+						<p>2016款 1.6L 自动创行版</p>
+					</a>	
+						<p>¥134460</p>
+					<a href="">
+						<img src="images/first-image/shows11.png" alt="">
+					</a>
+					<p>热销爆款<i></i></p>
+				</li>
+				<li>
+					<a href="">
+						<p>森林人</p>
+						<p>2016款 2.0i 时尚导航版</p>
+					</a>	
+						<p>¥280041</p>
+					<a href="">
+						<img src="images/first-image/shows1.jpg" alt="">
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<p>傲虎</p>
+						<p>2016款 Outback [傲虎] 2.5i 无级...</p>
+					</a>	
+						<p>¥348540</p>
+					<a href="">
+						<img src="images/first-image/show3.png" alt="">
+					</a>
+				</li>
+			</ul>
+		</section>
+		<section id="hot">
+			<div class="clearfix">
+				<h3 class="pull-left">购车分享</h3>
+				<a href="#" class="pull-right">查看更多<b></b></a>
+			</div>
+				<ul>
+				<li>
+					<a href="#">
+						<img src="images/first-image/30025.jpg" alt="">
+					</a>
+					<a href="#">
+						<h4>实用性SUV代表车型—大众途观...</h4>
+					</a>
+					<a href="#">实用性SUV代表车型—大众途观购车分享</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="images/first-image/29980.jpg" alt="">
+					</a>
+					<a href="#">
+						<h4>实用性SUV代表车型—大众途观...</h4>
+					</a>
+					<a href="#">实用性SUV代表车型—大众途观购车分享</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="images/first-image/29979.jpg" alt="">
+					</a>
+					<a href="#">
+						<h4>实用性SUV代表车型—大众途观...</h4>
+					</a>
+					<a href="#">实用性SUV代表车型—大众途观购车分享</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="images/first-image/29579.jpg" alt="">
+					</a>
+					<a href="#">
+						<h4>实用性SUV代表车型—大众途观...</h4>
+					</a>
+					<a href="#">实用性SUV代表车型—大众途观购车分享</a>
+				</li>
+				
+			</ul>
+		</section>
+	</article>
+	<footer class="footer_top">
+		<div class="footer_top_menu1">
+			<ul>
+				<li><i></i>上汽品质</li>
+				<li><i></i>价格透明</li>
+				<li><i></i>优质服务</li>
+				<li><i></i>一站式体验</li>
+			</ul>
+		</div>
+		<div class="footer_top_menu2">
+			<!-- 一 -->
+			<ul>
+				<li><h3>新手指南</h3></li>
+				<li><a href="">如何成为车享认证会员？</a></li>
+				<li><a href="">车享积分的获取</a></li>
+				<li><a href="">密码锁了怎么办？</a></li>
+				<li><a href="">常见问题</a></li>
+			</ul>
+			<!-- 二 -->
+			<ul>
+				<li><h3>服务权益</h3></li>
+				<li><a href="">会员权益说明</a></li>
+				<li><a href="">车享保障与权益</a></li>
+				<li><a href="">隐私权声明</a></li>
+			</ul>
+			<!-- 三 -->
+			<ul>
+				<li><h3>关于我们</h3></li>
+				<li><a href="">什么是车享？</a></li>
+				<li><a href="">经销商</a></li>
+				<li><a href="">法律声明</a></li>
+				<li><a href="">免责条款</a></li>
+			</ul>
+			<!-- 四 -->
+			<ul>
+				<li><h3>服务热线</h3></li>
+				<li><h4>4008 020 666</h4></li>
+				<li><p>服务时段：周一至周日</p></li>
+				<li><p>9:00~21:00</p></li>
+				<li><p>投诉</p></li>
+			</ul>
+			<!-- 五 -->
+			<ul class="footer_erweima">
+				<li><img src="images/ms_120.jpg" alt=""><p>车享</p></li>
+				<li><img src="images/cxhui_120.jpg" alt=""><p>车享汇</p></li>
+			</ul>
+		</div>
+	</footer>
+	<footer class="footer_middle">
+		<!-- 战略合作 -->
+		<div class="footer_cooperate">
+			<span>战略合作</span>
+			<div class="footer_cooperate_menus">
+				<span><img src="images/bailian.jpg" alt=""></span>
+				<span><img src="images/lotus.jpg" alt=""></span>
+				<span><img src="images/castrol.jpg" alt=""></span>
+				<span><img src="images/jinjiang.jpg" alt=""></span>
+				<span><img src="images/metro.jpg" alt=""></span>
+				<span><img src="images/spdbank.jpg" alt=""></span>
+				<span><img src="images/sipg.jpg" alt=""></span>
+				<span><img src="images/crh.jpg" alt=""></span>
+				<span><img src="images/hnowhow.jpg" alt=""></span>
+				<span><img src="images/shairport.jpg" alt=""></span>
+				<span><img src="images/petrochina.jpg" alt=""></span>
+				
+			</div>
+		</div>
+		<!-- 快捷导航 -->
+		<div class="friend_link">
+			<span>快捷导航</span>
+			<div class="friend_link_right">
+				<a href="">新车报价</a>
+				<a href="">贷款购车</a>
+				<a href="">热搜汽车</a>
+				<a href="">分期付款买车</a>
+				<a href="">车享团购</a>
+				<a href="">汽车降价排行榜</a>
+				<a href="">买车送礼包</a>
+				<a href="">汽车促销活动</a> 
+				<a href="">车展买车</a>
+				<a href="">免息购车</a>
+				<a href="">清仓甩卖</a>
+				<a href="">限时促销</a>
+				<a href="">按揭买车</a>
+				<a href="">新车钜惠</a>
+				<a href="">年底促销</a>
+				<a href="">金融方案</a>
+				<a href="">大众优惠</a>
+				<a href="">凯迪拉克降价</a>
+				<a href="">别克促销</a>
+				<a href="">雪佛兰特价</a>
+			</div>
+		</div>
+	</footer>
+	<!-- 版权 -->
+	<footer class="footer_bottom">
+		<p>CopyRight © 2014-2016, All Rights Reserved 版权所有 车享 沪ICP备14000481号</p>
+		<p class="copyright_record"><i></i><a href="">沪公网备31010502000356号</a></p>
+	</footer>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,469 @@
+
+   /*通用*/
+article{
+	font-family: 微软雅黑;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+	color: #03A9F4;
+}
+li{
+	list-style: none;
+}
+
+#float>ul{
+	padding-top: 20px;
+	display:block;
+	margin: 0 auto;
+	width: 1190px;
+}
+#float>ul>li{
+	display: inline-block;
+	background-color: #F5F5F5;
+}
+#float>ul>li>a{
+	display: inline-block;
+	width: 230px;
+	height: 310px;
+	box-sizing: border-box;
+}
+#float>ul>li:first-child~*{
+	margin-left: 5px;
+}
+#float img{
+	width: 222px;
+}
+#float a>h2{
+	color: #333333;
+	font-size: 20px;
+	line-height: 34px;
+	font-weight: normal;
+	margin: 10px;
+}
+#float a>p:nth-child(2){
+	display: inline-block;
+	height: 45px;
+	font-size: 18px;
+	line-height: 45px; 
+	color: #C71444;
+	margin:0px 10px 20px;
+}
+#float a>p>b{
+	font-size: 30px;
+	line-height: 45px;
+}
+#float a>p:last-child{
+	font-size: 12px;
+	color: #333333;
+	margin: 0 0 20px 10px;
+}
+/*添加浮动和阴影*/
+#float>ul>li:hover{
+	transform:translate(0,-3px);
+	box-shadow:0px 0px 10px silver; 
+	box-shadow-top:none; 
+}
+#float>ul>li{
+transition:0.2s linear;
+}
+
+
+
+/*浮动之下*/
+article#somes{
+	margin-top:20px; 
+	background-color: #F2F2F2;
+	padding: 10px 0;
+	padding-bottom: 50px;
+}
+section{
+	width: 1190px;
+	margin: 0 auto;
+}
+
+/*通用*/
+.same>img{
+	margin-top: 10px;
+}
+.same>ul>li{
+	float: left;
+	width: 230px;
+	height: 300px;
+	box-sizing: border-box;
+	background-color: white;
+	list-style: none;
+	text-align: center;
+	font-weight: bold;
+
+}
+.same>h3{
+	font-size: 20px;
+	font-weight: bold; 
+	padding-left: 10px;
+}
+.same a{
+	color: black;
+}
+.same>h3>a:hover{
+	color: #03A9F4;
+}
+.same>ul>li>a:hover{
+	color: #03A9F4;
+}
+.same>ul>li:first-child>img{
+	width: 230px;
+	height: 300px;
+}
+.same>ul>li:first-child~*{
+	margin-left: 9px;
+	padding-top: 30px;
+}
+.same>ul>li:first-child~*>img{
+	width: 222px;
+	height: 148px;
+}
+.same>ul>li>p>s{
+	color: #999999;
+	font-weight: normal;
+	margin-left: 10px;
+}
+
+
+/*买新车*/
+#news>h3{
+	border-left: 5px solid #C71444;
+}
+#news>ul>li:first-child~*>img{
+	margin-top: 30px;
+}
+#news>ul>li>a>p{
+	font-size: 16px;
+	line-height: 16px;
+	
+}
+#news>ul>li>p{
+	color: #E91C23;
+	font-size: 13px;	
+}
+/*小图标*/
+#news>ul>li{
+	position: relative;
+}
+#news>ul>li>p:last-child{
+	background-color: #63c232;
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: white;
+	padding: 0px 15px 0px 5px;
+	font-weight: normal;
+}
+#news>ul>li>p:last-child>i{
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	top: 1px;
+	z-index: 10;
+	border: 8px solid transparent;
+	border-right:8px solid white; 
+}
+#news>ul>li>p.yellow{
+	background-color: #FF6702;
+}
+
+
+
+
+/*维修保养*/
+#project>h3{
+	border-left: 5px solid #63C232;
+}
+#project>ul>li>a{
+	font-size: 16px;
+	line-height: 30px;
+}
+#project>ul>li>p:nth-child(3){
+	color: #E91C23;
+	font-size: 13px;
+}
+#project>ul>li>p:last-child{
+	color: #999999;
+	font-size: 13px;
+	font-weight: normal;
+}
+#project>ul>li:first-child~*>img{
+	margin-bottom: 30px;
+}
+
+/*买卖二手车*/
+#jiaoyi>h3{
+	border-left: 5px solid #FF6702;
+}
+#jiaoyi>div{
+	float: left;
+}
+#sell{
+	width: 470px;
+	height: 410px;
+	padding: 0 20px;background-color: white;
+}
+
+#buy{
+	width: 710px;
+	height: 410px;
+	margin-left: 10px;
+}
+
+
+
+/*卖*/
+#sell>.font{
+	border-bottom:1px dashed #D8D8D8;
+	position: relative;
+}
+#sell>.font>li:first-child{
+	font-size: 45px;
+	color:#FF6702;
+}
+#sell>.font>li:last-child{
+	position: absolute;
+	right: 0;
+	bottom: 5px;
+}
+#sell>.font>li:last-child>b{
+	color:#368DF8;
+}
+/*流程图标*/
+#sell>.lc{
+	margin:30px 0 20px 5px; 
+}
+#sell>.lc>li{
+	float: left;
+	width: 60px;
+	height: 90px;
+}
+#sell>.lc>li:nth-child(2n-1)>b{
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+}
+#sell>.lc>li:nth-child(1)>b{
+	background: url(../images/first-image/icon-1.png) no-repeat 0 -15px;
+}
+#sell>.lc>li:nth-child(3)>b{
+	background: url(../images/first-image/icon-1.png) no-repeat 0 -127px;
+}
+#sell>.lc>li:nth-child(5)>b{
+	background: url(../images/first-image/icon-1.png) no-repeat 0 -284px;
+}
+#sell>.lc>li:nth-child(7)>b{
+	background: url(../images/first-image/icon-1.png) no-repeat 0 -345px;
+}
+#sell>.lc>li:nth-child(2n){
+	padding:30px;
+}
+#sell>.lc>li:nth-child(2n)>b{
+	display: block;
+	width: 20px;
+	height: 20px;
+	background: url(../images/first-image/icon-1.png) no-repeat;
+	text-align: center;
+}
+
+/*文字描述*/
+#sell>h4{
+	line-height: 40px;
+}
+#sell>p{
+	font-size: 16px;
+	color: #999999;
+	margin-bottom: 40px;
+}
+#sell>a{
+	color: white;
+	font-size: 16px;
+	background-color: #368DF8;
+	padding:10px 40px; 
+	border-radius: 5px;
+	margin-top: 20px;
+}
+
+
+/*买*/
+.first{
+	background-color: white;
+}
+.first>div{
+	float: left;
+	margin-right:20px; 
+}
+.first>div>h1{
+	font-size: 45px;
+	line-height: 45px;
+	color:#FF6702;
+	margin-top: 7px;
+}
+.first>div>ul{
+	margin-bottom: 0px;
+}
+.first>div>ul:first-child{
+	margin-top: 8px
+}
+.first>div>ul>li{
+	float: left;
+}
+.first>div>ul>li>a{
+	color: #999999;
+}
+.first>div>ul>li:nth-child(2)~*{
+	margin: 0 10px;
+}
+.first>div>ul:first-child>li:first-child>b{
+	display: inline-block;
+	height: 20px;
+	width:20px;
+	margin-top:3px;
+	background: url(../images/first-image/icon-1.png) no-repeat 0 -264px;
+}
+.first>div>ul:last-child>li:first-child>b{
+	display: inline-block;
+	height: 20px;
+	width:20px;
+	margin-top:3px;
+	background: url(../images/first-image/icon-1.png) no-repeat 0 -196px;
+}
+.second{
+	width:710px;
+	height: 330px;
+	margin-top: 15px;
+}
+.second>li{
+	background-color: white;
+	display: inline-block;
+	width: 230px;
+	padding-bottom:10px; 
+}
+.second>li>img{
+	width: 222px;
+	height: 148px;
+	margin:15px 4px; 
+}
+.second>li>div{
+	margin: 0 17px;
+}
+.second>li>div>a>h3{
+	font-size: 16px;
+	font-weight: bold;
+	margin: 5px 0;
+}
+.second>li>div>a>h3:first-child{
+	margin-top: 0px;
+}
+.second>li>div>a:hover{
+	color: #03A9F4;
+}
+.second>li>div>p:nth-child(2){
+	font-size: 13px;
+	color: #999999;
+}
+
+.second>li>div>p:nth-child(3){
+	color: #E51C23;
+	font-size: 17px;
+	font-weight: bold;
+	margin-top: 30px;
+	background:url(../images/first-image/ershou.png) no-repeat center center;
+}
+.second>li>div>div>span{
+	font-size: 12px;
+	color: #999999;
+}
+.second>li:nth-child(2){
+	margin: 0 5px;
+}
+
+
+/*车知道*/
+#know>div{
+	float: left;
+}
+#know>h3{
+	border-left: 5px solid #03A9F4;
+	margin-top: 
+}
+
+
+div#baoyang{
+	background-color: white;
+	padding: 20px 0 0 20px;
+	width: 470px;
+}
+#know>div#baoyang>h4{
+	font-size: 16px;
+	color: #999999;
+	font-weight: bold;
+	border-bottom: 1px dashed #D8D8D8;
+	padding-bottom: 20px;
+}
+#know>div#baoyang>ul>li{
+	margin: 15px 0;
+}
+#know>div#baoyang>ul>li>span:first-child{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	text-align: center;
+	font-size: 12px;
+}
+#know>div#baoyang>ul>li:first-child>span:first-child,
+#know>div#baoyang>ul>li:nth-child(2)>span:first-child,
+#know>div#baoyang>ul>li:nth-child(3)>span:first-child
+{
+	border: 2px solid #079FFF;
+	color: #079FFF;
+}
+#know>div#baoyang>ul>li:nth-child(3)~*>span:first-child{
+	border: 2px solid #BDB4A9;
+	color: #BDB4A9;
+}
+
+#know>div#baoyang>ul>li>span:nth-child(2){
+	color: #999999;
+}
+#know>div#baoyang>ul>li>a:hover{
+	color: #03A9F4;
+}
+
+#kepu>div
+{
+	width: 710px;
+	margin-left: 10px;
+}
+#know>#kepu>div{
+	background-color: white;
+}
+#know>#kepu>div>div{
+	width:470px;
+	padding:0 20px;
+}
+#know>#kepu>div>div>h3{
+	font-size: 20px;
+	color: #999999;
+	margin: 20px 0;
+}
+#know>#kepu>div>div>p:nth-child(2){
+	text-indent: 2em;
+	color: #999999;
+	margin-bottom: 35px;
+}
+#know>#kepu>div>div>p:nth-child(3){
+	color: #999999;
+	font-size: 12px;
+}
+#know>#kepu>div:last-child{
+	margin-top: 10px;
+}

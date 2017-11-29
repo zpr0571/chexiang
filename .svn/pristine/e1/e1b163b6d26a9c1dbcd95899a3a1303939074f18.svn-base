@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>首页</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/common.css">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1" uesr-scalable=no>
+	 	<!-- html5垫片脚本 -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+		<!-- 内容浮动部分 -->
+	<article id="float">	
+		<ul>
+			<li>
+				<a href="#">
+					<h2>买车最低价</h2>
+					<p><b>50%</b>OFF</p>
+					<img src="images/first-image/29917.png" alt="">
+					<p>进入频道</p>
+				</a>		
+			</li>
+			<li>
+				<a href="#">
+				<h2>车享二手车商城</h2>
+					<p>全新上线</p>
+					<img src="images/first-image/29883.png" alt="">
+					<p>进入频道</p>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<h2>超值保养套餐</h2>
+					<p>线上支付享<b>9</b>折</p>
+					<img src="images/first-image/29936.png" alt="">
+					<p>进入频道</p>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<h2>会员商城</h2>
+					<p>精品荟萃 积分好礼</p>
+					<img src="images/first-image/29934.png" alt="">
+					<p>进入频道</p>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<h2>汽车美容</h2>
+					<p>清新度夏</p>
+					<img src="images/first-image/29928.png" alt="">
+					<p>进入频道</p>
+				</a>
+			</li>
+		</ul>
+	</article>
+	<article id="somes">
+		<!-- 买新车 -->
+		<section id="news" class="same">
+			<h3>
+				<a href="#">买新车</a>
+			</h3>
+			<ul class="clearfix">
+				<li>
+					<img src="images/first-image/30673.jpg" alt="">
+				</li>
+				<li>
+					<a href="#">
+						<p>荣威RX5</p>
+						<p>16款 1.5T 两驱互联网智享版</p>
+					</a>
+					<p>¥ 14.88万 <s>¥14.88万</s></p>
+					<img src="images/first-image/new1.jpg" alt="">
+					<p>新品<i></i></p>
+				</li>
+				<li>
+					<a href="#">
+						<p>荣威RX5</p>
+						<p>16款 1.5T 两驱互联网智享版</p>
+					</a>
+					<p>¥ 14.88万 <s>¥14.88万</s></p>
+					<img src="images/first-image/new2.png" alt="">
+				</li>
+				<li>
+					<a href="#">
+						<p>荣威RX5</p>
+						<p>16款 1.5T 两驱互联网智享版</p>
+					</a>
+					<p>¥ 14.88万 <s>¥14.88万</s></p>
+					<img src="images/first-image/new3.jpg" alt="">
+				</li>
+				<li>
+					<a href="#">
+						<p>荣威RX5</p>
+						<p>16款 1.5T 两驱互联网智享版</p>
+					</a>
+					<p>¥ 14.88万 <s>¥14.88万</s></p>
+					<img src="images/first-image/new4.jpg" alt="">
+					<p class="yellow">促销<i></i></p>
+				</li>
+			</ul>
+			<ul class="clearfix">
+				<li>
+					<img src="images/first-image/30674.jpg" alt="">
+				</li>
+				<li>
+					<a href="#">
+						<p>荣威RX5</p>
+						<p>16款 1.5T 两驱互联网智享版</p>
+					</a>
+					<p>¥ 14.88万 <s>¥14.88万</s></p>
+					<img src="images/first-image/new4.jpg" alt="">
+					<p>新品<i></i></p>
+				</li>
+				<li>
+					<a href="#">
+						<p>荣威RX5</p>
+						<p>16款 1.5T 两驱互联网智享版</p>
+					</a>
+					<p>¥ 14.88万 <s>¥14.88万</s></p>
+					<img src="images/first-image/new1.jpg" alt="">
+					<p class="yellow">促销<i></i></p>
+				</li>
+				<li>
+					<a href="#">
+						<p>荣威RX5</p>
+						<p>16款 1.5T 两驱互联网智享版</p>
+					</a>
+					<p>¥ 14.88万 <s>¥14.88万</s></p>
+					<img src="images/first-image/new2.png" alt="">
+				</li>
+				<li>
+					<a href="#">
+						<p>荣威RX5</p>
+						<p>16款 1.5T 两驱互联网智享版</p>
+					</a>
+					<p>¥ 14.88万 <s>¥14.88万</s></p>
+					<img src="images/first-image/new3.jpg" alt="">
+				</li>
+			</ul>
+			<img src="images/first-image/chang.jpg" alt="">
+		</section>
+		<!-- 维修保养 -->
+		<section id="project" class="same">
+			<h3>
+				<a href="#">维修保养</a>
+			</h3>
+			<ul class="clearfix">
+				<li>
+					<img src="images/first-image/29920.jpg" alt="">
+				</li>
+				<li>
+					<img src="images/first-image/29797.jpg" alt="">
+					<a href="#">16款 1.5T 两驱互联网智享版</a>
+					<p>¥ 14.88万</p>
+					<p>市场价 <s>¥14.88万</s></p>
+				</li>
+				<li>
+					<img src="images/first-image/29813.jpg" alt="">
+					<a href="#">16款 1.5T 两驱互联网智享版</a>
+					<p>¥ 14.88万</p>
+					<p>市场价 <s>¥14.88万</s></p>
+				</li>
+				<li>
+					<img src="images/first-image/29815.jpg" alt="">
+					<a href="#">16款 1.5T 两驱互联网智享版</a>
+					<p>¥ 14.88万</p>
+					<p>市场价 <s>¥14.88万</s></p>
+				</li>
+				<li>
+					<img src="images/first-image/29816.jpg" alt="">
+					<a href="#">16款 1.5T 两驱互联网智享版</a>
+					<p>¥ 14.88万</p>
+					<p>市场价 <s>¥14.88万</s></p>
+				</li>
+			</ul>
+			<ul class="clearfix">
+				<li>
+					<img src="images/first-image/29921.jpg" alt="">
+				</li>
+				<li>
+					<img src="images/first-image/29817.jpg" alt="">
+					<a href="#">16款 1.5T 两驱互联网智享版</a>
+					<p>¥ 14.88万</p>
+					<p>市场价 <s>¥14.88万</s></p>
+				</li>
+				<li>
+					<img src="images/first-image/29818.jpg" alt="">
+					<a href="#">16款 1.5T 两驱互联网智享版</a>
+					<p>¥ 14.88万</p>
+					<p>市场价 <s>¥14.88万</s></p>
+				</li>
+				<li>
+					<img src="images/first-image/29821.jpg" alt="">
+					<a href="#">16款 1.5T 两驱互联网智享版</a>
+					<p>¥ 14.88万</p>
+					<p>市场价 <s>¥14.88万</s></p>
+				</li>
+				<li>
+					<img src="images/first-image/29822.jpg" alt="">
+					<a href="#">16款 1.5T 两驱互联网智享版</a>
+					<p>¥ 14.88万</p>
+					<p>市场价 <s>¥14.88万</s></p>
+				</li>
+			</ul>
+			<img src="images/first-image/chang2.jpg" alt="">
+
+		</section>
+		<!-- 买卖二手车 -->
+		<section id="jiaoyi" class="same clearfix">
+			<h3>
+				<a href="#">买卖二手车</a>
+			</h3>
+			<div id="sell">
+				<ul class="font">
+					<li>卖</li>
+					<li>已有 <b>5455</b> 人成功卖车</li>
+				</ul>
+				<ul class="lc clearfix">
+					<li>
+						<b></b>
+						预约卖车
+					</li>
+					<li><b></b></li>
+					<li>
+						<b></b>
+						到店检测
+					</li>
+					<li><b></b></li>
+					<li>
+						<b></b>
+						商户竞价
+					</li>
+					<li><b></b></li>
+					<li>
+						<b></b>
+						过户成交
+					</li>
+				</ul>
+				<h4>预约卖车</h4>
+				<p>
+					上汽AICS检测服务，254项精细检测，报名预约即可上门或到店检测，免费评估
+				</p>
+				<a href="#">我要预约</a>
+			</div>
+			<div id="buy">
+				<div class="first clearfix">
+					<div><h1>买</h1></div>
+					<div>
+						<ul class="clearfix">
+							<li><b></b></li>
+							<li><a href="#">大众</a></li>
+							<li><a href="#">别克</a></li>
+							<li><a href="#">现代</a></li>
+							<li><a href="#">福特</a></li>
+							<li><a href="#">沃尔沃</a></li>
+							<li><a href="#">斯柯达</a></li>
+							<li><a href="#">本田</a></li>
+							<li><a href="#">雪佛兰</a></li>
+							<li><a href="#">丰田</a></li>
+							<li><a href="#">菲亚特</a></li>
+							<li><a href="#">更多</a></li>
+						</ul>
+						<ul class="clearfix">
+							<li><b></b></li>
+							<li><a href="#">3万以下</a></li>
+							<li><a href="#">3-5万</a></li>
+							<li><a href="#">5-8万</a></li>
+							<li><a href="#">8-10万</a></li>
+							<li><a href="#">10-15万</a></li>
+							<li><a href="#">15-20万</a></li>
+							<li><a href="#">20-30万</a></li>
+							<li><a href="#">30-50万</a></li>
+							<li><a href="#">50万以上</a></li>
+						</ul>
+					</div>
+				</div>
+				<ul class="second">
+					<li>
+						<img src="images/first-image/30414.jpg" alt="">
+						<div>
+							<a href="#">
+								<h3>铃木</h3>
+								<h3>天语SX4 1.6 手动 运动版</h3>
+							</a>
+							<p>2011年上牌 /5.15万公里</p>
+							<p>5.08万</p>
+							<div class="clearfix">
+								<span class="pull-left">新车价：11.75万</span>
+								<span class="pull-right">上海</span>
+							</div>
+						</div>
+					</li>
+					<li>
+						<img src="images/first-image/30413.jpg" alt="">
+						<div>
+							<a href="#">
+								<h3>大众</h3>
+								<h3>朗逸 1.4双离合 品雅版</h3>
+							</a>
+							<p>2011年上牌 /9.50万公里</p>
+							<p>7.78万</p>
+							<div class="clearfix">
+								<span class="pull-left">新车价：15.93万</span>
+								<span class="pull-right">上海</span>
+							</div>
+						</div>
+					</li>
+					<li>
+						<img src="images/first-image/30412.jpg" alt="">
+						<div>
+							<a href="#">
+								<h3>斯柯达</h3>
+								<h3>明锐 1.6 手自一体 逸杰版</h3>
+							</a>
+							<p>2014年上牌 /2.36万公里</p>
+							<p>9.38万</p>
+							<div class="clearfix">
+								<span class="pull-left">新车价：15.94万</span>
+								<span class="pull-right">上海</span>
+							</div>
+						</div>
+					</li>
+				</ul>
+
+			</div>
+			<img src="images/first-image/chang3.jpg" alt="">
+		</section>
+		<!-- 车知道 -->
+		<section id="know" class="same clearfix">
+			<h3>
+				<a href="#">车知道</a>
+			</h3>
+			<div id="baoyang">
+				<h4>热门推荐</h4>
+				<ul>
+					<li>
+						<span>1</span>
+						<span>[选车]</span>
+						<a href="#">预算20万买什么车好？5款高销量中级车推荐</a>
+					</li>
+					<li>
+						<span>2</span>
+						<span>[选车]</span>
+						<a href="#">【紧凑型车推荐▪第1期】骐达 思域 英朗</a>
+					</li>
+					<li>
+						<span>3</span>
+						<span>[购车]</span>
+						<a href="#">不选贵的只选对的 MG锐腾购车作业</a>
+					</li>
+					<li>
+						<span>4</span>
+						<span>[购车]</span>
+						<a href="#">买车到底买高配还是买低配</a>
+					</li>
+					<li>
+						<span>5</span>
+						<span>[养车]</span>
+						<a href="#">不及时更换三滤，汽车寿命缩短10年！</a>
+					</li>
+					<li>
+						<span>6</span>
+						<span>[养车]</span>
+						<a href="#">汽车保养，这些钱真的不能省！</a>
+					</li>
+					<li>
+						<span>7</span>
+						<span>[用车]</span>
+						<a href="#">汽车加油关于92号还是95号的几个常见问题</a>
+					</li>
+					<li>
+						<span>8</span>
+						<span>[用车]</span>
+						<a href="#">多数车主搞不清？关于四轮定位那些事儿</a>
+					</li>
+					<li>
+						<span>9</span>
+						<span>[二手车]</span>
+						<a href="#">二手车卖不好怪我咯！？想要卖个好价钱必看</a>
+					</li>
+					<li>
+						<span>10</span>
+						<span>[二手车]</span>
+						<a href="#">二手车鉴别修炼手册，有了它不怕被坑！</a>
+					</li>
+				</ul>
+			</div>
+			<div id="kepu">
+				<div class="clearfix">
+					<img src="images/first-image/29942.jpg" alt="" class="pull-left">
+					<div class="pull-left">
+						<h3>大众发布全新辉昂及Cross 桑塔纳</h3>
+						<p>近期，上汽大众再次发力发布了两款车。一款是备受期待和瞩目的PHIDEON——辉昂。它的名字源自古罗马神话中的女神Fidēs，象征誓约，信仰与尽善尽美，寓意优雅，值得信赖。另一款则是为桑塔纳家...</p>
+						<p>来自于  车知道</p>
+					</div>
+				</div>
+				<div class="clearfix">
+					<img src="images/first-image/29943.jpg" alt="" class="pull-left">
+					<div class="pull-left">
+						<h3>科技与环保的结合，E550购车分享</h3>
+						<p>刚在车享网买了荣威E550，那边工作人员问，能不能给写份购车分享。当时，内心是拒绝的。。。无奈小妹太热情了，不过感觉第一次买车，还是在网上买的，车享的服务还算不错，就给写份吧。话说回来...</p>
+						<p>来自于  车知道</p>
+					</div>
+				</div>
+			</div>
+		</section>
+	</article>
+	<footer class="footer_top">
+		<div class="footer_top_menu1">
+			<ul>
+				<li><i></i>上汽品质</li>
+				<li><i></i>价格透明</li>
+				<li><i></i>优质服务</li>
+				<li><i></i>一站式体验</li>
+			</ul>
+		</div>
+		<div class="footer_top_menu2">
+			<!-- 一 -->
+			<ul>
+				<li><h3>新手指南</h3></li>
+				<li><a href="">如何成为车享认证会员？</a></li>
+				<li><a href="">车享积分的获取</a></li>
+				<li><a href="">密码锁了怎么办？</a></li>
+				<li><a href="">常见问题</a></li>
+			</ul>
+			<!-- 二 -->
+			<ul>
+				<li><h3>服务权益</h3></li>
+				<li><a href="">会员权益说明</a></li>
+				<li><a href="">车享保障与权益</a></li>
+				<li><a href="">隐私权声明</a></li>
+			</ul>
+			<!-- 三 -->
+			<ul>
+				<li><h3>关于我们</h3></li>
+				<li><a href="">什么是车享？</a></li>
+				<li><a href="">经销商</a></li>
+				<li><a href="">法律声明</a></li>
+				<li><a href="">免责条款</a></li>
+			</ul>
+			<!-- 四 -->
+			<ul>
+				<li><h3>服务热线</h3></li>
+				<li><h4>4008 020 666</h4></li>
+				<li><p>服务时段：周一至周日</p></li>
+				<li><p>9:00~21:00</p></li>
+				<li><p>投诉</p></li>
+			</ul>
+			<!-- 五 -->
+			<ul class="footer_erweima">
+				<li><img src="images/ms_120.jpg" alt=""><p>车享</p></li>
+				<li><img src="images/cxhui_120.jpg" alt=""><p>车享汇</p></li>
+			</ul>
+		</div>
+	</footer>
+	<footer class="footer_middle">
+		<!-- 战略合作 -->
+		<div class="footer_cooperate">
+			<span>战略合作</span>
+			<div class="footer_cooperate_menus">
+				<span><img src="images/bailian.jpg" alt=""></span>
+				<span><img src="images/lotus.jpg" alt=""></span>
+				<span><img src="images/castrol.jpg" alt=""></span>
+				<span><img src="images/jinjiang.jpg" alt=""></span>
+				<span><img src="images/metro.jpg" alt=""></span>
+				<span><img src="images/spdbank.jpg" alt=""></span>
+				<span><img src="images/sipg.jpg" alt=""></span>
+				<span><img src="images/crh.jpg" alt=""></span>
+				<span><img src="images/hnowhow.jpg" alt=""></span>
+				<span><img src="images/shairport.jpg" alt=""></span>
+				<span><img src="images/petrochina.jpg" alt=""></span>
+				
+			</div>
+		</div>
+		<!-- 快捷导航 -->
+		<div class="friend_link">
+			<span>快捷导航</span>
+			<div class="friend_link_right">
+				<a href="">新车报价</a>
+				<a href="">贷款购车</a>
+				<a href="">热搜汽车</a>
+				<a href="">分期付款买车</a>
+				<a href="">车享团购</a>
+				<a href="">汽车降价排行榜</a>
+				<a href="">买车送礼包</a>
+				<a href="">汽车促销活动</a> 
+				<a href="">车展买车</a>
+				<a href="">免息购车</a>
+				<a href="">清仓甩卖</a>
+				<a href="">限时促销</a>
+				<a href="">按揭买车</a>
+				<a href="">新车钜惠</a>
+				<a href="">年底促销</a>
+				<a href="">金融方案</a>
+				<a href="">大众优惠</a>
+				<a href="">凯迪拉克降价</a>
+				<a href="">别克促销</a>
+				<a href="">雪佛兰特价</a>
+			</div>
+		</div>
+	</footer>
+	<!-- 版权 -->
+	<footer class="footer_bottom">
+		<p>CopyRight © 2014-2016, All Rights Reserved 版权所有 车享 沪ICP备14000481号</p>
+		<p class="copyright_record"><i></i><a href="">沪公网备31010502000356号</a></p>
+	</footer>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
